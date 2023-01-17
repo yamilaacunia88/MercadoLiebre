@@ -1,13 +1,10 @@
 const express = require('express');
 const app = express();
 app.use(express.static('public'));
+const port = process.env.PORT || 3001;
 
+//implemento rutas
 
-//app.listen(3000, ()=>{
-  //  console.log('Servidor funcionando');
-//});
-
-const port = process.env.PORT || 001;
 app.listen(port,()=> console.log ('servidor corriendo en puerto $(port)'));
 
 app.get('/', (req,res)=>{
@@ -18,6 +15,6 @@ app.get('/login', (req,res)=>{
     res.sendFile(__dirname + '/views/login.html');
 });
 
-app.get('/register', (req,res)=>{
+app.get('/register', (req,res)=>{S
     res.sendFile(__dirname + '/views/register.html');
 });
