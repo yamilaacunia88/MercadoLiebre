@@ -39,7 +39,9 @@ header .form{
 }
 
 header div.logo{
-    padding: 10px;
+    padding: 20px 20px;
+    width: 45%;
+    
 }
 header .form{
     display: flex;
@@ -50,11 +52,14 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
+    text-align: center;
 }
 
 header ul li{
     list-style-type: none;
+    
 }
+
 
 header ul li a{
     text-decoration: none;
@@ -190,6 +195,8 @@ main section article:hover{
 .article-footer{
     text-align: center;
     margin: 35px 55px;
+    padding: 26px;
+
 }
 
  .i-footer {
@@ -199,11 +206,14 @@ main section article:hover{
 }
 
 .i-footer:hover{
-    color: #666;
+    color:#e9e9e9;
 }
 
 .align-footer{
     text-align: center;
+}
+.detallesfooter{
+    background-color:#ffffff;
 }
 .fa-credit-card{
     font-size: 2em;
