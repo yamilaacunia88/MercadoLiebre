@@ -50,6 +50,7 @@ header .form{
 header nav{
     font-size: 14px;
     margin-left: 20px;
+    display: inline-block;
 }
 
 header ul li{
