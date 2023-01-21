@@ -45,10 +45,10 @@ header .form{
     display: flex;
     align-items: center;
     padding: 2px;
-    font-size: 11px;
+    font-size: 14px;
 }
 header nav{
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 20px;
 }
 
@@ -189,9 +189,9 @@ main section article:hover{
 /*FOOTER*/
 .article-footer{
     text-align: center;
-    margin: 33px 33px 33px;
+    margin: 33px 43px ;
     padding: 26px;
-    display: block;
+    display: inline-block;
 
 }
 
