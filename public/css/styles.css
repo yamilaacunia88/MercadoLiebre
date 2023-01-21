@@ -79,13 +79,14 @@ header .form .submit{
 /*navegadores*/
 
 .navegador-derecha{
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
-    float: ;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    display: inline;
 }
 .navegador-izquierda{
-    font-family: 'Courier New', Courier, monospace;
-    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    display: inline;
 }
 div.burger-menu{
     text-align: center;
