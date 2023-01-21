@@ -22,27 +22,39 @@
                 <p><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
             </div>
             <nav class="navegador">
-                <ul>
+                <ul class="navegador-izquierda">
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas Oficiales</a></li>
                     <li><a href="#">Vender</a></li>
-                    <li><a href="https://www.mercadolibre.com.ar/ayuda">Ayuda</a></li>
+                    <li><a href="#">Ayuda</a></li>
                 </ul>
-                <ul>
-                    <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
-                    <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <ul class="navegador-derecha">
+                    <li><a href="/views/register.html">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                    <li><a href="/views/login.html">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
                     <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
                 </ul>
             </nav>
-            <div class="burger-menu">
-                <i class="fa fa-bars burger"></i>
-            </div>
+            <a href="#" class="hamburguer-button">
+                <i class="fas fa-bars"></i></a>
+           
         </header>
         <main class="register">
-            <form action="/" method="GET">
+            <form action="/" >
+               <div></div>
+                <label for="name">Nombre de Usuario</label> 
+                <br>
                 <input type="text" name="name" placeholder="Nombre y apellido">
+            </div>
+            <div></div>
+                <label for="user">Nombre de Usuario</label> 
+            <br>    
                 <input type="text" name="user" placeholder="Nombre de usuario">
+            </div>
+            <div>
+                <label for="email">Ingrese su Email</label>
+                <br>
                 <input type="email" name="email" placeholder="E-mail">
+            </div>
                 <br>
                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
                 <br>
