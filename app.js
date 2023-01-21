@@ -1,20 +1,22 @@
 const express = require('express');
+const path = require("path");
 const app = express();
-app.use(express.static('public'));
 const port = process.env.PORT || 3001;
 
 //implemento rutas
 
-app.listen(port,()=> console.log ('servidor corriendo en puerto $(port)'));
+app.use(express.static('public'));
 
-app.get('/', (req,res)=>{
-    res.sendFile(__dirname + '/views/home.html');
+app.listen(PORT, () => console.log ('servidor corriendo en puerto $(PORT)'));
+
+app.get("/", (req,res) => {
+    res.sendFile(path.join(__dirname, "./views/home.html"));
 });
 
-app.get('/login', (req,res)=>{
-    res.sendFile(__dirname + '/views/login.html');
+app.get("/views/login.html", (req,res) => {
+    res.sendFile(__dirname + "/views/login.html");
 });
 
-app.get('/register', (req,res)=>{S
-    res.sendFile(__dirname + '/views/register.html');
+app.get("/views/register.html", (req,res) => {
+    res.sendFile(__dirname + "/views/register.html");
 });
