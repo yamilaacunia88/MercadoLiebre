@@ -39,9 +39,7 @@ header .form{
 }
 
 header div.logo{
-    padding: 20px 20px;
-    width: 45%;
-
+    padding: 10px;
 }
 header .form{
     display: flex;
@@ -52,19 +50,15 @@ header .form{
 header nav{
     font-size: 12px;
     margin-left: 20px;
-    text-align: center;
 }
 
 header ul li{
     list-style-type: none;
-    
 }
-
 
 header ul li a{
     text-decoration: none;
     color: #000;
-    display: inline;
 }
 
 header .form .input{
@@ -148,7 +142,7 @@ main section article img{
 
 main section article i,
 .discount{
-    color: #b2e8b9;
+    color:#1c8229 ;
 }
 
 .fa-truck:hover{
@@ -166,7 +160,7 @@ main section article i{
     padding: 5px;
     width: 30px;
     height: 30px;
-    border: 1px solid #b2e8b9;
+    border: 1px solid #1c8229;
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
@@ -195,9 +189,9 @@ main section article:hover{
 /*FOOTER*/
 .article-footer{
     text-align: center;
-    margin: 35px 55px;
+    margin: 33px 33px 33px;
     padding: 26px;
-    display: inline-block;
+    display: block;
 
 }
 
@@ -243,7 +237,13 @@ main section article:hover{
 
 .login-btn:hover{
     background-color: #3498db;
+
 }
+
+/*login poner mas detalles
+
+/* register class register y profile
+
 
 /*tablet*/
 @media (min-width: 361px){
